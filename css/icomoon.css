@@ -1,0 +1,162 @@
+@font-face {
+    font-family: icomoon;
+    src: url(../fonts/icomoon/icomoon.eot?l0ftvp);
+    src: url(../fonts/icomoon/icomoon.eot?l0ftvp#iefix) format('embedded-opentype'), url(../fonts/icomoon/icomoon.ttf?l0ftvp) format('truetype'), url(../fonts/icomoon/icomoon.woff?l0ftvp) format('woff'), url(../fonts/icomoon/icomoon.svg?l0ftvp#icomoon) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class^=ico-],
+[class*=" ico-"] {
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ico-email:before {
+    content: "\e912"
+}
+
+.ico-placeholder:before {
+    content: "\e913"
+}
+
+.ico-smartphone:before {
+    content: "\e914"
+}
+
+.ico-board-games-set:before {
+    content: "\e900"
+}
+
+.ico-chess:before {
+    content: "\e901"
+}
+
+.ico-chess-1:before {
+    content: "\e902"
+}
+
+.ico-chess-2:before {
+    content: "\e903"
+}
+
+.ico-crown:before {
+    content: "\e904"
+}
+
+.ico-right-arrow:before {
+    content: "\e905"
+}
+
+.ico-shield:before {
+    content: "\e906"
+}
+
+.ico-strategy:before {
+    content: "\e907"
+}
+
+.ico-strategy-1:before {
+    content: "\e908"
+}
+
+.ico-strategy-2:before {
+    content: "\e909"
+}
+
+.ico-strategy-3:before {
+    content: "\e90a"
+}
+
+.ico-strategy-4:before {
+    content: "\e90b"
+}
+
+.ico-strategy-5:before {
+    content: "\e90c"
+}
+
+.ico-strategy-6:before {
+    content: "\e90d"
+}
+
+.ico-strategy-7:before {
+    content: "\e90e"
+}
+
+.ico-strategy-8:before {
+    content: "\e90f"
+}
+
+.ico-strategy-9:before {
+    content: "\e910"
+}
+
+.ico-support:before {
+    content: "\e911"
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+ 
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
