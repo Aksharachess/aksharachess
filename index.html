@@ -240,10 +240,10 @@
                                                         <a href="#tournaments">Tournament List</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#team">Our Team</a>
+                                                        <a href="offline.html">Offline</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#gallery">Our Gallery</a>
+                                                        <a href="gallary.html">Our Gallery</a>
                                                     </li>
 
                                                 </ul>
@@ -262,13 +262,13 @@
 
                                                     <!-- features -->
                                                     <li>
-                                                        <a href="#tournaments">Tournament List</a>
+                                                        <a href="gallary.html">Gallary</a>
                                                        
                                                     </li>
                                                     <!-- eof shortcodes -->
 
                                                     <li>
-                                                        <a href="#team">Our Team</a>
+                                                        <a href="offline.html">Offline</a>
                                                       
 
                                                     </ul>
@@ -337,11 +337,15 @@
                                                 </div>
                                                 <div class="intro_layer" data-animation="fadeInLeft" data-delay="150">
                                                     <h2 class="text-uppercase thin">AKSHARA CHESS <span class="color-main text-capitalize bold">ACADEMY</span></h2>
+                                                    
+                                                   
                                                     <p>
                                                         Leading Chess Academy In India
                                                     </p>
+                                                    
                                                 </div>
-
+                                               
+                                               
 
                                             </div>
                                             <!-- eof .intro_layers -->
@@ -447,7 +451,15 @@
                 </div>
                 <!-- eof flexslider -->
             </section>
-
+            <section>
+                <div style=" text-align: center;">
+            <video width="440px" loop="true" class="center" autoplay="autoplay" controls muted >
+                <source src="offline/video.mp4" type="video/mp4" />
+                <source src="offline/video.mp4" type="video/ogv" />
+                <source src="offline/video.mp4" type="video/webm" />
+              </video>
+              </div>
+            </section>
             <!-- Start Section About -->
             <section class="about_us ls s-overlay mobile-overlay s-py-xl-270 s-py-lg-130 s-py-md-90 s-py-60 c-gutter-0 container-px-xl-0" id="about">
                 <div class="container-fluid">
@@ -623,7 +635,57 @@
                 </div>
             </section>
             <!-- End Section Features -->
+            <div class="slideshow-container">
 
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="images/business-facebook-cover-10.jpg" style="width:100%">
+                
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="images/back_to_school_facebook_cover_32.jpg" style="width:100%">
+                 
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/Business-Facebook-Cover-08.jpg" style="width:100%">
+                  
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 1000); // Change image every 2 seconds
+                }
+                </script>
+                
             <!-- Start Section Tournament -->
             <section class="ls s-py-xl-150 s-py-lg-130 s-py-md-90 s-py-60" id="tournaments">
                 <div class="container">
@@ -889,6 +951,48 @@
                                 <div class="isotope-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
                                     <div class="vertical-item cs item-team content-absolute content-show-hover text-center">
                                         <div class="item-media">
+                                            <img src="images/team/17.jpg" alt="team">
+                                        </div>
+                                        <div class="item-content">
+                                            <h6>
+                                                <a href="team-single.html">SAGAR</a>
+                                            </h6>
+                                            <p class="small-text color-darkgrey">
+                                                CHESS COACH
+                                            </p>
+                                            <span class="social-icons">
+												<a href="#" class="fab fa-facebook-f" title="facebook"></a>
+												<a href="#" class="fab fa-telegram-plane" title="telegram"></a>
+												<a href="#" class="fab fa-instagram" title="instagram"></a>
+												<a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
+											</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="isotope-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="vertical-item cs item-team content-absolute content-show-hover text-center">
+                                        <div class="item-media">
+                                            <img src="images/team/19.jpg" alt="team">
+                                        </div>
+                                        <div class="item-content">
+                                            <h6>
+                                                <a href="team-single.html">HELMIN</a>
+                                            </h6>
+                                            <p class="small-text color-darkgrey">
+                                                CHESS COACH
+                                            </p>
+                                            <span class="social-icons">
+												<a href="#" class="fab fa-facebook-f" title="facebook"></a>
+												<a href="#" class="fab fa-telegram-plane" title="telegram"></a>
+												<a href="#" class="fab fa-instagram" title="instagram"></a>
+												<a href="#" class="fab fa-linkedin-in" title="linkedin"></a>
+											</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="isotope-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="vertical-item cs item-team content-absolute content-show-hover text-center">
+                                        <div class="item-media">
                                             <img src="images/team/06.jpg" alt="team">
                                         </div>
                                         <div class="item-content">
@@ -952,6 +1056,102 @@
                             <div class="fw-divider-space divider-30 divider-lg-0"></div>
                             <div id="parent">
                                 <div id="propertyThumbnails" class="row shortcode-gallery c-gutter-10 c-mb-10">
+                                    <div class="col-12 col-sm-6">
+                                        <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
+                                            <div class="item-media">
+                                                <img src="images/gallery/rectangle/17.jpg" alt="img">
+                                            </div>
+                                            <div class="item-content ">
+                                                <h6>
+                                                    <a href="gallery-single.html"> sana u7 national 10th </a>
+                                                </h6>
+                                                <div class="links-wrap">
+                                                   
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
+                                            <div class="item-media">
+                                                <img src="images/gallery/rectangle/18.jpg" alt="img">
+                                            </div>
+                                            <div class="item-content ">
+                                                <h6>
+                                                    <a href="gallery-single.html">devanarayanan u7 national runner up</a>
+                                                </h6>
+                                                <div class="links-wrap">
+                                                   
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
+                                            <div class="item-media">
+                                                <img src="images/gallery/rectangle/13.jpg" alt="img">
+                                            </div>
+                                            <div class="item-content ">
+                                                <h6>
+                                                    <a href="gallery-single.html">ceon all kerala u9 champion</a>
+                                                </h6>
+                                                <div class="links-wrap">
+                                                   
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
+                                            <div class="item-media">
+                                                <img src="images/gallery/rectangle/14.jpg" alt="img">
+                                            </div>
+                                            <div class="item-content ">
+                                                <h6>
+                                                    <a href="gallery-single.html">dakshnath all kerala u13 champion</a>
+                                                </h6>
+                                                <div class="links-wrap">
+                                                   
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
+                                            <div class="item-media">
+                                                <img src="images/gallery/rectangle/15.jpg" alt="img">
+                                            </div>
+                                            <div class="item-content ">
+                                                <h6>
+                                                    <a href="gallery-single.html">farasha all kerala u9 girls runnerup</a>
+                                                </h6>
+                                                <div class="links-wrap">
+                                                   
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
+                                            <div class="item-media">
+                                                <img src="images/gallery/rectangle/16.jpg" alt="img">
+                                            </div>
+                                            <div class="item-content ">
+                                                <h6>
+                                                    <a href="gallery-single.html">janaki alappuzha district u9 champion</a>
+                                                </h6>
+                                                <div class="links-wrap">
+                                                   
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-12 col-sm-6">
                                         <div class="vertical-item item-gallery content-absolute content-show-hover text-center text-center cs">
                                             <div class="item-media">
